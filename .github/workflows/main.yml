@@ -7,7 +7,5 @@ jobs:
     # You need to use the INSTALLATION_NAME from the previous step
     runs-on: arc-runner-set
     steps:
-    - run: | 
-          which python
-          python3 -m pip install awscli
-          which aws
+    - run:  which python
+          
