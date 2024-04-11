@@ -5,7 +5,7 @@ on:
 jobs:
   Explore-GitHub-Actions:
     # You need to use the INSTALLATION_NAME from the previous step
-    runs-on: arc-runner-set
+    runs-on: s3-read-runner
     steps:
     - run:  | 
             sudo apt-get update && sudo apt-get -y upgrade
