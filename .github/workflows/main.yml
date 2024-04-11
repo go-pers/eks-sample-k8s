@@ -16,5 +16,6 @@ jobs:
             sudo unzip awscliv2.zip
             sudo ./aws/install
             aws --version
+            aws s3 ls --region us-east-1
 
           
